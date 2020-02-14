@@ -1,38 +1,95 @@
-.App {
-  text-align: center;
+* {
+  box-sizing: border-box;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+body {
+  margin: 0;
+  padding: 0;
+  background-color: #eff3f7;
+  height: 100%;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+html,
+body,
+#potato,
+.container {
+  height: 100%;
   display: flex;
-  flex-direction: column;
-  align-items: center;
   justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
 }
 
-.App-link {
-  color: #61dafb;
+.loader {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.movies {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  padding: 30px;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.movies .movie {
+  width: 48%;
+  background-color: white;
+  margin-bottom: 70px;
+  display: flex;
+  align-items: flex-start;
+  justify-content: space-betwwen;
+  font-weight: 300;
+  padding: 5px;
+  position: relative;
+  box-shadow: 3px 3px 3px 3px gray;
+  box-sizing: border-box;
+}
+
+.movie img {
+  margin: 5px;
+  margin-top : -25px;
+  max-width: 100px;
+  border: 1px solid gray;
+}
+
+.movie .movie__title,
+.movie .movie__year {
+  margin: 0;
+}
+
+.movie .movie__title {
+  margin-bottom : 5px;
+  font-size: 18px;
+  color: #2c2c2c;
+}
+
+.movie .movie__year,
+.movie .movie__genres {
+  font-size: 12px;
+  color: #b2bbbc
+}
+
+
+.movie .movie__genres {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  display: flex;
+  margin: 5px;
+}
+
+.movie__genres li{
+  margin-right: 10px;
+}
+
+.movie__summary {
+  font-size: 13px;overflow: hidden;
+  text-overflow: ellipsis;
+  display: -webkit-box;
+  -webkit-line-clamp: 3; /* 라인수 */
+  -webkit-box-orient: vertical;
+  word-wrap:break-word; 
+  line-height: 1.2em;
+  height: 3.6em; /* line-height 가 1.2em 이고 3라인을 자르기 때문에 height는 1.2em * 3 = 3.6em */
 }
