@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/move_app_2019/static/css/main.f3f0b25c.chunk.css",
+    "main.css": "/move_app_2019/static/css/main.a65eebff.chunk.css",
     "main.js": "/move_app_2019/static/js/main.b4eaa4ba.chunk.js",
     "main.js.map": "/move_app_2019/static/js/main.b4eaa4ba.chunk.js.map",
     "runtime-main.js": "/move_app_2019/static/js/runtime-main.af03c508.js",
@@ -8,15 +8,15 @@
     "static/js/2.9725d8a2.chunk.js": "/move_app_2019/static/js/2.9725d8a2.chunk.js",
     "static/js/2.9725d8a2.chunk.js.map": "/move_app_2019/static/js/2.9725d8a2.chunk.js.map",
     "index.html": "/move_app_2019/index.html",
-    "precache-manifest.052aa8f86121247e7f1bdc429d79dceb.js": "/move_app_2019/precache-manifest.052aa8f86121247e7f1bdc429d79dceb.js",
+    "precache-manifest.6417b884ada2d6731b014ce832e17f89.js": "/move_app_2019/precache-manifest.6417b884ada2d6731b014ce832e17f89.js",
     "service-worker.js": "/move_app_2019/service-worker.js",
-    "static/css/main.f3f0b25c.chunk.css.map": "/move_app_2019/static/css/main.f3f0b25c.chunk.css.map",
+    "static/css/main.a65eebff.chunk.css.map": "/move_app_2019/static/css/main.a65eebff.chunk.css.map",
     "static/js/2.9725d8a2.chunk.js.LICENSE.txt": "/move_app_2019/static/js/2.9725d8a2.chunk.js.LICENSE.txt"
   },
   "entrypoints": [
     "static/js/runtime-main.af03c508.js",
     "static/js/2.9725d8a2.chunk.js",
-    "static/css/main.f3f0b25c.chunk.css",
+    "static/css/main.a65eebff.chunk.css",
     "static/js/main.b4eaa4ba.chunk.js"
   ]
 }
